@@ -6,7 +6,6 @@ on:
 
 jobs:
   trigger-sync:
-    if: github.repository_owner == forestream
     runs-on: ubuntu-latest
     steps:
       - run: echo 'sync'
