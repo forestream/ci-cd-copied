@@ -2,7 +2,7 @@ name: Trigger sync
 
 on: 
   repository_dispatch:
-    types: [main-updated]
+    types: [main_updated]
 
 jobs:
   trigger-sync:
